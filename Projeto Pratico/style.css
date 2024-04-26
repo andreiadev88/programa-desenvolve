@@ -1,0 +1,26 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+@import url("styles/rodape.css");
+
+:root {
+    --cor-primaria: #FFF;
+    --cor-secundaria: #FCE4EC;
+    --green-light: #DCEDC8;
+    --black: #000000;
+    --orange: #FFCCBC;
+    --purple-light: #D1C4E9;
+    --lavender-blush: #FFF0F5;
+    --floral-white: #FFFAF0;
+    
+
+    --fonte-principal: "Ubuntu";
+    --fonte-secundario: "Open Sans";
+}
+
+body {
+    font-family: var(--fonte-principal);
+    background-color: var(--floral-white);
+    color: var(--black);
+}
+

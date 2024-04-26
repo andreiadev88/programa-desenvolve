@@ -1,0 +1,14 @@
+hr {
+    margin: 0;
+}
+
+.rodapé {
+    background-color: var(--cor-secundaria);
+    padding: 1em;
+    text-align: center;
+    font-weight: 600;
+    position: sticky;
+    width: 100%;
+    height: 40px;
+    
+}
