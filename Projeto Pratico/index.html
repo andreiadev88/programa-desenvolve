@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>B&C</title>
     <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,7 +14,8 @@
         href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
         rel="stylesheet">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
@@ -80,37 +81,40 @@
 
 
         </div>
-        
+
         <section class="banner2">
             <h2 class="banner__titulo2">Promoções</h2>
             <p class="banner__texto2">Encontre seu querinho com até 70% de desconto</p>
             <img src="images/promo.jpg" alt="">
-            
+
         </section>
-        
+
         <section class="carrossel">
             <h2 class="carrossel__titulo">Novidades</h2>
-    
+
             <div class="swiper">
-    
+
                 <div class="swiper-pagination"></div>
-    
+
                 <div class="swiper-wrapper">
-    
+
                     <div class="swiper-slide"><img src="images/novidades.jpg" alt="Mulher no banho">Meu Luar</div>
-                    <div class="swiper-slide"><img src="images/novidades1.jpg" alt="Mulher passando creme no rosto">Beauty Diamond</div>
-                    <div class="swiper-slide"><img src="images/novidades2.jpg" alt="Mulher usando perfume">Shower Fresh</div>
-                    <div class="swiper-slide"><img src="images/novidades3.jpg" alt="Homem passando creme no rosto">Man Care</div>
-    
+                    <div class="swiper-slide"><img src="images/novidades1.jpg"
+                            alt="Mulher passando creme no rosto">Beauty Diamond</div>
+                    <div class="swiper-slide"><img src="images/novidades2.jpg" alt="Mulher usando perfume">Shower Fresh
+                    </div>
+                    <div class="swiper-slide"><img src="images/novidades3.jpg" alt="Homem passando creme no rosto">Man
+                        Care</div>
+
                     ...
                 </div>
-    
-    
-    
+
+
+
                 <div class="swiper-button-prev"></div>
                 <div class="swiper-button-next"></div>
-    
-    
+
+
             </div>
             <div class="card">
                 <div class="card__descricao">
@@ -119,12 +123,12 @@
                         <br>
                         <p> Descubra mais beleza!
                             <br><br>
-    
+
                             Siga-nos no Instagram para dicas exclusivas!
-                            
-    
+
+
                         </p>
-    
+
                     </div>
                     <img src="images/postInstagram.jpg" class="descricao__imagem" alt="Imagem de post dp Instagram">
                 </div>
@@ -134,22 +138,22 @@
                     </ul>
                 </div>
             </div>
-    </section>
+        </section>
 
-    <hr />
+        <hr />
 
-    <footer class="rodapé">
-        <h2 class="rodapé__titulo">Care & Beauty</h2>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script>const swiper = new Swiper('.swiper', {
-            spaceBetween: 10,
-            slidesPerView: 3,
-            pagination: {
-                el: '.swiper-pagination',
-                type: 'bullets',
-            }
-        });</script>
+        <footer class="rodapé">
+            <h2 class="rodapé__titulo">Care & Beauty</h2>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script>const swiper = new Swiper('.swiper', {
+                spaceBetween: 10,
+                slidesPerView: 3,
+                pagination: {
+                    el: '.swiper-pagination',
+                    type: 'bullets',
+                }
+            });</script>
 </body>
 
 </html>
