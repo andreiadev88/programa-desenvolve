@@ -61,3 +61,50 @@
     width: 100px ;
     aspect-ratio: 16/9;
 }
+
+@media screen and (min-width: 1024px) {
+    .carrossel__titulo {
+        font-size:  40px;
+    }
+
+    .swiper-pagination {
+        margin: 2em 0 3em 0 ;
+    }
+
+    .swiper {
+        width: 50%;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        display: block;
+        top: 60%;
+        color: #000;
+    }
+
+    .card {
+        width: 50%;
+        margin: 2em auto;
+    }
+
+    .swiper-slide img {
+        width: 200px;
+        height: 200px;
+        overflow: hidden;
+        aspect-ratio: 16/9;
+
+    }
+    .descricao__titulo {
+        font-size: 30px;
+    }
+
+    .card__texto {
+        font-size: 25px;
+    }
+
+    .descricao__imagem {
+        height: 350px;
+        width:  350px;
+        aspect-ratio: 16/9;
+    }
+}

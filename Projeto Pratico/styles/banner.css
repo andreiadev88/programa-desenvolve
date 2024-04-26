@@ -60,3 +60,27 @@
     margin: 1em 0;
    
 }
+
+@media screen and (min-width: 1024px) {
+    .banner__titulo {
+        font-size: 36px;
+    }
+
+    .banner__pesquisa {
+        width: 30%;
+    }
+
+    .banner__pesquisa::placeholder {
+        background-position: 2em;
+    }
+
+    .banner__titulo2 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .banner__texto2 {
+        font-size: 20px;
+        font-weight: 500;
+    }
+}

@@ -14,6 +14,10 @@
         href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
         rel="stylesheet">
 
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+
+
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="style.css">
 
@@ -43,12 +47,43 @@
                 </li>
 
             </ul>
-            <img src="images/logo2.svg" alt="Logo Care e Beauty" class="container__imagem">
+            <img src="images/logo2.svg" alt="Logo Care e Beauty" class="container__imagem--logo">
+
         </div>
+        <ul class="opcoes">
+            <input type="checkbox" id="opcoes-menu" class="opcoes__botao">
+            <label for="opcoes-menu">
+                <li class="opcoes__item">Categorias</li>
+            </label>
+
+            <ul class="lista-menu">
+              
+                <li class="lista-menu___item">
+                    <a href="#" class="lista-menu__link">Perfumes</a>
+                </li>
+                <li class="lista-menu___item">
+                    <a href="#" class="lista-menu__link">Cabelos</a>
+                </li>
+                <li class="lista-menu___item">
+                    <a href="#" class="lista-menu__link">SPA</a>
+                </li>
+                <li class="lista-menu___item">
+                    <a href="#" class="lista-menu__link">Maquiagem</a>
+                </li>
+
+            </ul>
+            <li class="opcoes__item">
+                <a href="#" class="opcoes__link"></a>Favoritos
+            </li>
+            <li class="opcoes__item">
+                <a href="#" class="opcoes__link"></a>Promo
+            </li>
+        </ul>
         <div>
-            <a href=""><img src="images/favoritos.svg" alt="Meus favoritos" class="container__imagem"></a>
-            <a href=""><img src="images/bag.svg" alt="Sacola de compras" class="container__imagem"></a>
-            <a href=""><img src="images/person.svg" alt="Meu perfil" class="container__imagem"></a>
+            <a href="#"><img src="images/favoritos.svg" alt="Meus favoritos"
+                    class="container__imagem container__imagem-transparente"></a>
+            <a href="#"><img src="images/bag.svg" alt="Sacola de compras" class="container__imagem"></a>
+            <a href="#"><img src="images/person.svg" alt="Meu perfil" class="container__imagem"></a>
         </div>
     </header>
     <section class="banner">
@@ -121,8 +156,8 @@
                     <div class="descricao">
                         <h2 class="descricao__titulo">Nossas redes</h2>
                         <br>
-                        <p> Descubra mais beleza!
-                            <br><br>
+                        <p class="card__texto"> Descubra mais beleza!
+                            <br>
 
                             Siga-nos no Instagram para dicas exclusivas!
 
@@ -130,7 +165,7 @@
                         </p>
 
                     </div>
-                    <img src="images/postInstagram.jpg" class="descricao__imagem" alt="Imagem de post dp Instagram">
+                    <img src="images/postInstagram.jpg" class="descricao__imagem" alt="Imagem de post do Instagram">
                 </div>
                 <div class="card__botoes">
                     <ul class="botoes">
@@ -142,8 +177,9 @@
 
         <hr />
 
-        <footer class="rodapé">
-            <h2 class="rodapé__titulo">Care & Beauty</h2>
+        <footer class="rodape">
+            <h2 class="rodape__titulo">Care & Beauty</h2>
+
         </footer>
         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
         <script>const swiper = new Swiper('.swiper', {
