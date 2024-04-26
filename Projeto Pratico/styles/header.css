@@ -13,6 +13,7 @@
     justify-content: space-between;
     align-items: center;
     position: relative;
+    
 }
 
 .container {
@@ -22,6 +23,8 @@
 
 .container__imagem {
     padding: 1em;
+    
+    
 }
 
 .lista-menu {
@@ -34,15 +37,21 @@
 }
 
 .container__botao:checked~.lista-menu {
-    display: block;
+    display:block;
 }
 
 .lista-menu__titulo, 
 .lista-menu__link {
-    padding: 1em;
-    background-color: var(--cor-primaria);
+    padding: 0.5em;
+    background-color: var(--cor-secundaria);
+    text-transform: uppercase;
+   
+
 
     
+}
+.lista-menu__titulo {
+    font-weight: 600;
 }
 
 
